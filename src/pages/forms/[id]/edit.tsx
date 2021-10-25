@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import { useRouter } from 'next/router';
+import withAuth from '../../../utils/withAuth';
 
 const FormEdit: NextPage = () => {
   const router = useRouter();
@@ -8,4 +9,4 @@ const FormEdit: NextPage = () => {
   return <>FormEdit: {id}</>;
 };
 
-export default FormEdit;
+export default withAuth(FormEdit);
