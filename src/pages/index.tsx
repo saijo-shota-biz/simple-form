@@ -1,15 +1,17 @@
 import type { NextPage } from 'next';
 import { Button, Link } from '@chakra-ui/react';
 import NextLink from 'next/link';
-import withAuth from '../utils/withAuth';
 import { useAuth } from '../hooks/useAuth';
+import withAuth from '../utils/withAuth';
 
 const Home: NextPage = () => {
-  const { signOut } = useAuth();
+  const { currentUser, signOut } = useAuth();
 
   return (
     <>
       <h1>Home</h1>
+
+      {JSON.stringify(currentUser, null, 4)}
 
       <Button colorScheme={'blue'} onClick={signOut}>
         SignOut
@@ -19,6 +21,11 @@ const Home: NextPage = () => {
 
       <Link as={NextLink} href={'/'}>
         Home
+      </Link>
+      <br />
+
+      <Link as={NextLink} href={'/settings'}>
+        Settings
       </Link>
       <br />
       <Link as={NextLink} href={'/forms'}>

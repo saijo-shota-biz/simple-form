@@ -5,22 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f05716d3-4bed-4689-890b-e09fa490ad81" name="デフォルト変更リスト" comment="">
-      <change afterPath="$PROJECT_DIR$/src/config/firebase.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useAuth.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/signin.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/signup.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/withAuth.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/simple-form.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/simple-form.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/firebase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/firebase.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useAuth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useAuth.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/forms/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/forms/[id].tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/forms/[id]/edit.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/forms/[id]/edit.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/forms/[id]/result.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/forms/[id]/result.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/forms/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/forms/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/forms/new.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/forms/new.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/signin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/signin.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/signup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/signup.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/theme.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +39,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1zsP4s4262ixe1sS6iF1iC67Kt1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -55,20 +61,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/molecules/form" />
+      <recent name="$PROJECT_DIR$/src/components/molecules" />
+      <recent name="$PROJECT_DIR$/src/components/organisms" />
       <recent name="$PROJECT_DIR$/src/hooks" />
       <recent name="$PROJECT_DIR$/src/pages/forms/[id]" />
-      <recent name="$PROJECT_DIR$/src/pages/forms" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="アプリケーションレベル" UseSingleDictionary="true" transferred="true" />
@@ -79,7 +88,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634933634744</updated>
-      <workItem from="1634933637978" duration="13461000" />
+      <workItem from="1634933637978" duration="14142000" />
+      <workItem from="1635292339212" duration="24138000" />
+      <workItem from="1635386454942" duration="2268000" />
+      <workItem from="1635465412871" duration="19983000" />
+      <workItem from="1635578552740" duration="2410000" />
+      <workItem from="1635769810099" duration="2874000" />
+      <workItem from="1635816162309" duration="13000" />
+      <workItem from="1635988717866" duration="2430000" />
+      <workItem from="1637240573450" duration="14733000" />
+      <workItem from="1638037985018" duration="2301000" />
     </task>
     <servers />
   </component>
@@ -99,6 +117,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

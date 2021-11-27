@@ -1,12 +1,16 @@
 import type { NextPage } from 'next';
-import { Button, Input } from '@chakra-ui/react';
-import { ChangeEvent, useEffect, useState } from 'react';
+import { Button, Link } from '@chakra-ui/react';
+import { useEffect } from 'react';
 import { useAuth } from '../hooks/useAuth';
 import { useRouter } from 'next/router';
+import { useTextInput } from '../hooks/useTextInput';
 
 const SignIn: NextPage = () => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, EmailTextInput] = useTextInput({ placeholder: 'email' });
+  const [password, PasswordTextInput] = useTextInput({
+    placeholder: 'password',
+    type: 'password',
+  });
   const { currentUser, signInWithEmail } = useAuth();
   const router = useRouter();
 
@@ -16,36 +20,22 @@ const SignIn: NextPage = () => {
     }
   }, [currentUser]);
 
-  const onChangeEmailInput = (e: ChangeEvent<HTMLInputElement>) => {
-    setEmail(e.target.value);
-  };
-
-  const onChangePasswordInput = (e: ChangeEvent<HTMLInputElement>) => {
-    setPassword(e.target.value);
-  };
-
   const onClickSignInButton = () => {
     signInWithEmail(email, password);
   };
 
   return (
     <>
-      <h1>SignIN</h1>
+      <h1>SignIn</h1>
 
-      <Input
-        value={email}
-        placeholder={'email'}
-        onChange={onChangeEmailInput}
-      />
-      <Input
-        value={password}
-        placeholder={'password'}
-        onChange={onChangePasswordInput}
-      />
+      {EmailTextInput}
+      {PasswordTextInput}
 
       <Button colorScheme={'blue'} onClick={onClickSignInButton}>
         SignIn
       </Button>
+
+      <Link href={'/signup'}>Sign Up</Link>
     </>
   );
 };
